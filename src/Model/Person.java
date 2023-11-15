@@ -1,3 +1,5 @@
+package Model;
+
 public class Person {
 
     String firstName;
@@ -46,7 +48,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Model.Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
